@@ -1,0 +1,65 @@
+.gs_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.gs_header_left{
+    display: flex;
+}
+
+.gs_header_left_icon{
+    font-size: 1.2rem;
+    padding-right: 0.4rem;
+}
+
+.gs_header_right{
+    display: flex;
+}
+
+.gs_header_right_icons{
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.gs_header_right p, .gs_header_left p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.gs_heading{
+    padding-left: 7rem;
+    padding-top: 4rem;
+}
+
+.gs_heading_icon{
+    font-size: 2rem;
+}
+
+.gs_heading p{
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.gs_basics{
+    padding-top: 3rem;
+    padding-left: 7rem;
+}
+
+.gs_basics_line{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.gs_basics_line span{
+    margin-right: 0.3rem;
+}
+
+.gs_basics_line p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+}

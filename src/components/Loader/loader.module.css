@@ -1,0 +1,98 @@
+
+.loader_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.container .dot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* top: 52.5%;
+    left: 150px; */
+    height: 20px;
+    width: 20px;
+    background-color: #909090;
+    border-radius: 5rem;
+    transition: all 0.15s ease-in-out;
+}
+.container .dot:nth-child(1) {
+    left: 43%;
+    animation: waveUp 2s, smallExtend 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.container .dot:nth-child(2) {
+    left: 45%;
+    animation: waveUp 2s, largeExtend 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.15s;
+}
+.container .dot:nth-child(3) {
+    left: 47%;
+    animation: waveUp 2s, smallExtend 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+}
+.container .dot:nth-child(4) {
+    left: 49%;
+    animation: waveUp 2s, largeExtend 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.45s;
+}
+.container .dot:nth-child(5) {
+    left: 51%;
+    animation: waveUp 2s, smallExtend 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+@keyframes waveUp {
+    0%, 15% {
+        top: 50%;
+   }
+    45%, 65% {
+        top: 42.5%;
+   }
+    85%, 100% {
+        top: 50%;
+   }
+}
+@keyframes smallExtend {
+    0%, 8% {
+        background-color: #909090;
+        height: 20px;
+   }
+    14%, 34% {
+        background-color: #9bddff;
+        height: 47.5px;
+   }
+    46%, 100% {
+        background-color: #909090;
+        height: 20px;
+   }
+}
+@keyframes largeExtend {
+    0%, 8% {
+        background-color: #909090;
+        height: 20px;
+   }
+    14%, 34% {
+        background-color: #9bddff;
+        height: 82.5px;
+   }
+    46%, 100% {
+        background-color: #909090;
+        height: 20px;
+   }
+}

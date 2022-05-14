@@ -1,0 +1,135 @@
+.navbar{
+    padding: 1rem 0;
+    width: 15%;
+    border-right: 2px solid rgba(171, 170, 170, 0.2);
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.navbar_heading{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar_list_container{
+    width: 100%;
+}
+
+.navbar_list_gs{
+    background-color: #f5f5f5;
+    padding: 0.3rem 0;
+    cursor: pointer;
+}
+
+.navbar_list_gs p{
+   margin: 0;
+}
+
+.navbar_list_gsh{
+    display: flex;
+    align-items: center;
+}
+
+.notes_lists{
+    display: block;
+}
+
+.notes_lists_hide{
+    display: none;
+}
+
+.notes_list{
+    display: flex;
+    align-items: center;
+    /* margin-left: 2rem; */
+}
+
+.notes_list p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.notes_list_fi{
+    font-size: 1.2rem;
+    padding-right: 0.3rem;
+    color: #979797;
+}
+
+.navbar_list{
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 0.3rem 0;
+}
+
+.navbar_list_fi{
+    font-size: 1.2rem;
+    padding-right: 0.3rem;
+    color: #979797;
+}
+
+.notes_list a{
+    text-decoration: none;
+}
+
+.navbar_list_gsi{
+    font-size: 1.2rem;
+    padding-right: 0.3rem;
+}
+
+.navbar_list p{
+    font-size: 0.9rem;
+    margin: 0;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.newDoc{
+    position: absolute !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.4rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+    bottom: 4%;
+    box-sizing: border-box;
+    background-color: rgb(209, 208, 208);
+    width: 100%;
+    cursor: pointer;
+}
+
+/* .newPage p{
+    margin: 0;
+    margin-left: 0.4rem;
+} */
+
+.newFolder{
+    position: absolute;
+    left: 0;
+    width: 50%;
+    text-align: center;
+    border-right: 2px solid #979797;
+}
+
+.newPage{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    text-align: center;
+}
+
+.newFolder_icon, .newFile_icon{
+    font-size: 1.6rem;
+}

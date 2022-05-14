@@ -1,0 +1,123 @@
+.main_editor_container {
+  /* background-color: #9bddff; */
+  /* background-color: white; */
+  /* height: 100vh; */
+  position: relative;
+  width: 85%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.main_editor {
+  display: flex;
+}
+
+/* .editor_container {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.editor_container::-webkit-scrollbar {
+  display: none;
+} */
+
+.main_container {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #9bddff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  /* position: absolute;
+  top: 30%;
+  left: 18%; */
+  width: 72%;
+  margin-left: 7rem;
+}
+
+.container {
+  background-color: white;
+  /* border-radius: 1rem; */
+  text-align: left;
+  width: 100%;
+  padding: 2rem 0;
+  /* margin: 0 auto; */
+  border-radius: 1rem;
+}
+
+.editor_heading {
+  /* position: absolute;
+  top: 20%;
+  left: 18%; */
+  width: 69.5%;
+  /* margin: 0 auto; */
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  z-index: 100;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+}
+
+.editor_heading h1 {
+  font-size: 2.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.editor_heading input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: black;
+}
+.editor_title {
+  width: 75%;
+  /* margin: 0 auto; */
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+.editor_title input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+/* .editor_container  div:not(:last-child) {
+  display: none;
+  background-color: rosybrown;
+}
+.editor_container div:not(:last-child){
+  background-color: red;
+} */
+
+/* @tailwind base;
+
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600 underline;
+}
+
+@tailwind components;
+
+@tailwind utilities; */
+
+#editorjs{
+  font-family: "Open Sans", sans-serif;
+}
